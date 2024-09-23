@@ -1,0 +1,543 @@
+/* ================= common css part start here ============= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ ul ,li{
+    list-style: none;
+ }
+  a{
+    text-decoration: none;
+    display: inline-block;
+
+  }
+
+.container{
+    margin: 0 auto;
+    width: 1350px;
+}
+
+/*  ===== width na theakle text align center kaj korbe  */
+
+
+/*  === width thekle margin  o auto kaj korbe */
+
+.main_div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+    align-items: center;
+
+}
+.menu_part ul{
+    display: flex;
+    gap: 59px;
+}
+.menu_part ul li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+.menu_part ul li a:hover{
+    color: #FDBB57;
+    transition: all linear .3s;
+}
+.button_part{
+    display: flex;
+    gap: 10px;
+}
+.button_part a{
+    width: 120px;
+    height: 56px;
+    background: #FDBB57;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 57px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    border:  2px solid #FFD687;
+
+}
+.button_part a:hover{
+    background: transparent;
+    transition: all linear .3s;
+}
+
+/* ==================== body part start here ====================================== */
+#banner{
+    padding-bottom: 100px;
+}
+.main_div{
+    display: flex;
+    justify-content: space-between;
+}
+.part_one h1{
+    width: 450px;
+  
+    font-size: 64px;
+    font-weight: 600 ;
+    font-family: "Poppins", sans-serif;
+
+}
+.part_one p{
+    width: 531px;
+    height: 128px;
+    font-size: 22px;
+    font-weight: 500 ;
+    font-family: "Poppins", sans-serif;
+    margin-top: 38px;
+    margin-bottom: 76px;
+
+}
+
+.part_one button{
+    width: 319px;
+    height: 86px;
+    border:  1px solid black;
+    background: #000000;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+    
+}
+
+
+
+
+
+
+/* ==================== body part end here ====================================== */
+
+
+/* =================== collection part start here ================= */
+
+
+.collection h2{
+    text-align: center;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+.collection p{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 41px;
+    
+   
+}
+.single_collection{
+    display: block;
+    
+    position: relative;
+    overflow: hidden;
+}
+.single_collection_one{
+    display: block;
+    
+    position: relative;
+    overflow: hidden;
+}
+.single_collection_two{
+    display: block;
+    
+    position: relative;
+    overflow: hidden;
+}
+.single_collection a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 80%;
+    left: -100px;
+    width: 315px;
+    height: 57px;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 57px;
+    visibility: hidden;
+    transition: all linear .2s;
+    color: #000000;
+  
+    
+}
+.single_collection_one a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 80%;
+    left: -100px;
+    width: 315px;
+    height: 57px;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 57px;
+    visibility: hidden;
+    transition: all linear .2s;
+    color: #000000;
+  
+    
+}
+.single_collection_two a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 80%;
+    left: -100px;
+    width: 315px;
+    height: 57px;
+    border-radius: 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 57px;
+    visibility: hidden;
+    transition: all linear .2s;
+    color: #000000;
+  
+    
+}
+.single_collection:hover a{
+    visibility: visible;
+    left: 20px;
+   
+}
+.single_collection_one:hover a{
+    visibility: visible;
+    left: 20px;
+   
+}
+.single_collection_two:hover a{
+    visibility: visible;
+    left: 20px;
+   
+}
+.all_collection{
+    display: flex;
+    justify-content: space-between;
+}
+.single_collection a:hover{
+    background: red;
+}
+.single_collection_one a:hover{
+    background: red;
+}
+.single_collection_two a:hover{
+    background: red;
+}
+
+
+.single_collection{
+    background: url(../images/collection_1.png);
+    width: 349px;
+    height: 402px;
+    
+}
+
+
+
+
+
+
+.single_collection_one{
+    background: url(../images/collection_2.png);
+    width: 349px;
+    height: 402px;
+    
+}
+.single_collection_two{
+    background: url(../images/collection_3.png);
+    width: 349px;
+    height: 402px;
+    
+}
+
+
+
+
+
+
+/* =================== collection part end here ================= */
+
+/* =============================== best  fashion part start here =================== */
+#fashion{
+    padding-top: 212px;
+    position: relative;
+   
+   
+}
+
+.fashion_head h2{
+    width: 388px;
+    height: 162px;
+    font-size: 64px;
+    font-weight: bold;                                                            
+    font-family: "Frank Ruhl Libre", serif;
+   
+}
+.main_divs .fashion_head p{
+    width: 443px;
+    height: 186px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-top: 63px;
+    color: #000000;
+    margin-bottom: 132px;
+    margin-top: 63px;
+}
+
+.counter{
+    width: 893px;
+    height: 280px;
+    background: #FEECC8;
+    border-radius: 20px;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    padding-left: 27px;
+}
+
+.number h2{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Podkova", serif;
+
+}
+.number h4{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.line{
+    width: 143px;
+    height: 1px;
+    background: #000000;
+    transform: rotate(90deg);
+}
+.single_card{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+
+}
+.main_divs{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+.images_part{
+    position: absolute;
+    bottom: 150px;
+    padding: 50px;
+    width: 660px;
+    height: 686px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================== fashion part end here =================== */
+
+
+
+
+
+
+
+/* ======================== footer part start here =================== */
+
+/* #footer{
+    
+    background: #CFA485;
+}
+.footer_head h2{
+    width: 315px;
+    height: 162px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #FFFFFF;
+}
+.footer_head p{
+    width: 437px;
+    height: 270px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+.footer_head a{
+     padding:  25px 100px;
+    background: #000000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+
+}
+.botton_part{
+   
+    width: 366px;
+    height: 127px;
+
+}
+.img_part{
+    display: flex;
+} */
+
+
+/* ================= footer part start here ================ */
+
+#footer_part{
+    background: #CFA485;
+    padding-top: 35px;
+    padding-bottom: 192px;
+    margin-top: 96px;
+}
+.footer_text h2{
+    width: 315px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Frank Ruhl Libre", serif;
+    color: #FFFFFF;
+
+}
+.footer_text p{
+    width: 437px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#FFFFFF ;
+    font-family: "Frank Ruhl Libre", serif;
+    margin-top: 43px;
+    margin-bottom: 40px;
+
+}
+.footer_text a{
+    width:319px ;
+    height: 86px;
+    background: #000000;
+    color: #FFFFFF;
+   
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 86px;
+
+
+}
+.text_footer{
+    width: 366px;
+    height: 127px;
+    background: #FFFFFF;
+   
+}
+.text_footer h2{
+padding-left: 20px;
+}
+.text_footer ul{
+    display: flex;
+    padding-left: 20px;
+}
+.price_card{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.footer_card{
+    display: flex;
+    gap: 31px;
+}
+.footer_row{
+    display: flex;
+    justify-content: space-between;
+}
+.text_footer h2{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    
+}
+.text_footer ul li a{
+    color: #FFD687;
+}
+.text_footer .price_card{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    
+}
+.text_footer h2{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+.price_card ul{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================== footer part end here =================== */
